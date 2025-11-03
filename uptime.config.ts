@@ -13,9 +13,9 @@ const pageConfig: PageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    '🇭🇰 yecaoyun-hk': ['ad.h.hlmg.tech'],
-    '🇭🇰 uqidc-hk': ['xg.hlmg.tech', 'cloud.hlmg.tech'],
-    '🇭🇰 zouter-hk': ['zt.hlmg.tech', 'mail.hlmg.tech']
+    '🇭🇰 yecaoyun@hk': ['ad.h.hlmg.tech'],
+    '🇭🇰 uqidc@hk': ['xg.hlmg.tech', 'cloud.hlmg.tech'],
+    '🇭🇰 zouter@hk': ['zt.hlmg.tech', 'mail.hlmg.tech']
   },
 }
 
