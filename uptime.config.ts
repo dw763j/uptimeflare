@@ -14,8 +14,8 @@ const pageConfig: PageConfig = {
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
     '🇭🇰 yecaoyun@hk': ['ad.h.hlmg.tech'],
-    '🇭🇰 uqidc@hk': ['xg.hlmg.tech', 'cloud.hlmg.tech'],
-    '🇭🇰 zouter@hk': ['zt.hlmg.tech', 'mail.hlmg.tech']
+    '🇭🇰 uqidc@hk': ['xg.hlmg.tech'],
+    '🇭🇰 zouter@hk': ['zt.hlmg.tech', 'mail.hlmg.tech', 'cloud.hlmg.tech']
   },
 }
 
@@ -61,7 +61,7 @@ const workerConfig: WorkerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'cloud.hlmg.tech',
       // `name` is used at status page and callback message
-      name: 'Cloudreve at zouter@hk or uqidc@hk',
+      name: 'Cloudreve at zouter@hk',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
