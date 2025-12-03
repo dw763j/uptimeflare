@@ -15,7 +15,7 @@ const pageConfig: PageConfig = {
   group: {
     'Multiple': ['overleaf.hlmg.tech'],
     '🇭🇰 yecaoyun@hk': ['ad.h.hlmg.tech'],
-    '🇭🇰 uqidc@hk': ['xg.hlmg.tech'],
+    '🇭🇰 uqidc@hk': ['derp.xg.hlmg.tech'],
     '🇭🇰 zouter@hk': ['zt.hlmg.tech', 'mail.hlmg.tech']
   },
 }
@@ -46,7 +46,7 @@ const workerConfig: WorkerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://xg.hlmg.tech',
+      target: 'https://derp.xg.hlmg.tech',
     },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
