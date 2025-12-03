@@ -40,7 +40,7 @@ const workerConfig: WorkerConfig = {
     // },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'xg.hlmg.tech',
+      id: 'derp.xg.hlmg.tech',
       // `name` is used at status page and callback message
       name: 'Derp at uqidc@hk',
       // `method` should be a valid HTTP Method
