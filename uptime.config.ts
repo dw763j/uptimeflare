@@ -13,7 +13,6 @@ const pageConfig: PageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    'Multiple': ['overleaf.hlmg.tech'],
     '🇭🇰 yecaoyun@hk': ['ad.h.hlmg.tech'],
     '🇭🇰 uqidc@hk': ['derp.xg.hlmg.tech'],
     '🇭🇰 zouter@hk': ['zt.hlmg.tech', 'mail.hlmg.tech']
@@ -58,16 +57,16 @@ const workerConfig: WorkerConfig = {
       // `target` is a valid URL
       target: 'https://zt.hlmg.tech',
     },
-    {
-      // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'overleaf.hlmg.tech',
-      // `name` is used at status page and callback message
-      name: 'Overleaf at hlmg.tech',
-      // `method` should be a valid HTTP Method
-      method: 'GET',
-      // `target` is a valid URL
-      target: 'https://overleaf.hlmg.tech',
-    },
+    // {
+    //   // `id` should be unique, history will be kept if the `id` remains constant
+    //   id: 'overleaf.hlmg.tech',
+    //   // `name` is used at status page and callback message
+    //   name: 'Overleaf at hlmg.tech',
+    //   // `method` should be a valid HTTP Method
+    //   method: 'GET',
+    //   // `target` is a valid URL
+    //   target: 'https://overleaf.hlmg.tech',
+    // },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'ad.h.hlmg.tech',
