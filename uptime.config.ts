@@ -95,7 +95,7 @@ const workerConfig: WorkerConfig = {
       method: 'GET',
       // `target` is a valid URL
       target: 'https://derp.us.hlmg.tech',
-    },
+    }
   ],
   notification: {
     // [Optional] apprise API server URL
