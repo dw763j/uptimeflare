@@ -13,7 +13,7 @@ const pageConfig: PageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    '🇭🇰 HK': ['ad.h.hlmg.tech', 'derp.xg.hlmg.tech', 'zt.hlmg.tech', 'mail.hlmg.tech'],
+    '🇭🇰 HK': ['ad.h.hlmg.tech', 'derp.xg.hlmg.tech', 'derp.zt.hlmg.tech', 'mail.hlmg.tech'],
     '🇺🇸 USA': ['derp.us.hlmg.tech']
   },
 }
@@ -48,13 +48,13 @@ const workerConfig: WorkerConfig = {
     },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'zt.hlmg.tech',
+      id: 'derp.zt.hlmg.tech',
       // `name` is used at status page and callback message
       name: 'Derp at zouter@hk',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://zt.hlmg.tech',
+      target: 'https://derp.zt.hlmg.tech',
     },
     // {
     //   // `id` should be unique, history will be kept if the `id` remains constant
