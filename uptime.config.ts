@@ -14,7 +14,7 @@ const pageConfig: PageConfig = {
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
     '🇭🇰 HK': ['cloud.hlmg.tech', 'derp.xg.hlmg.tech', 'derp.zt.hlmg.tech', 'mail.hlmg.tech'],
-    '🇺🇸 USA': ['derp.us.hlmg.tech']
+    '🇳🇱 NL': ['pan.dh.hlmg.tech']
   },
 }
 
@@ -88,13 +88,13 @@ const workerConfig: WorkerConfig = {
     },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'derp.us.hlmg.tech',
+      id: 'pan.dh.hlmg.tech',
       // `name` is used at status page and callback message
-      name: 'Derper at vyayun@us',
+      name: 'Openlist at DeluxHost@nl',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://derp.us.hlmg.tech',
+      target: 'https://pan.dh.hlmg.tech',
     }
   ],
   notification: {
