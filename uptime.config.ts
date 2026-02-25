@@ -13,8 +13,7 @@ const pageConfig: PageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    '🇭🇰 HK': ['cloud.hlmg.tech', 'derp.xg.hlmg.tech', 'derp.zt.hlmg.tech', 'mail.hlmg.tech'],
-    '🇳🇱 NL': ['pan.dh.hlmg.tech']
+    '🇭🇰 HK': ['cloud.hlmg.tech', 'derp.xg.hlmg.tech', 'derp.zt.hlmg.tech', 'mail.hlmg.tech']
   },
 }
 
@@ -85,16 +84,6 @@ const workerConfig: WorkerConfig = {
       method: 'GET',
       // `target` is a valid URL
       target: 'https://mail.hlmg.tech',
-    },
-    {
-      // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'pan.dh.hlmg.tech',
-      // `name` is used at status page and callback message
-      name: 'Openlist at DeluxHost@nl',
-      // `method` should be a valid HTTP Method
-      method: 'GET',
-      // `target` is a valid URL
-      target: 'https://pan.dh.hlmg.tech',
     }
   ],
   notification: {
