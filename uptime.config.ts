@@ -13,7 +13,7 @@ const pageConfig: PageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    '🇭🇰 HK': ['cloud.hlmg.tech', 'derp.xg.hlmg.tech', 'derp.zt.hlmg.tech', 'mail.hlmg.tech']
+    '🇭🇰 HK': ['cloud.hlmg.tech', 'derp.xg.hlmg.tech', 'derp.zt.hlmg.tech']
   },
 }
 
@@ -55,16 +55,6 @@ const workerConfig: WorkerConfig = {
       // `target` is a valid URL
       target: 'https://derp.zt.hlmg.tech',
     },
-    // {
-    //   // `id` should be unique, history will be kept if the `id` remains constant
-    //   id: 'overleaf.hlmg.tech',
-    //   // `name` is used at status page and callback message
-    //   name: 'Overleaf at hlmg.tech',
-    //   // `method` should be a valid HTTP Method
-    //   method: 'GET',
-    //   // `target` is a valid URL
-    //   target: 'https://overleaf.hlmg.tech',
-    // },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'cloud.hlmg.tech',
@@ -74,16 +64,6 @@ const workerConfig: WorkerConfig = {
       method: 'GET',
       // `target` is a valid URL
       target: 'https://cloud.hlmg.tech',
-    },
-    {
-      // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'mail.hlmg.tech',
-      // `name` is used at status page and callback message
-      name: 'Mailu at zouter@hk',
-      // `method` should be a valid HTTP Method
-      method: 'GET',
-      // `target` is a valid URL
-      target: 'https://mail.hlmg.tech',
     }
   ],
   notification: {
