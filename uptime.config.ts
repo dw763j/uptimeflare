@@ -39,7 +39,7 @@ const workerConfig: WorkerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'derp.xg.hlmg.tech',
       // `name` is used at status page and callback message
-      name: 'Derp at uqidc@hk',
+      name: 'derp.xg.hlmg.tech',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
@@ -49,7 +49,7 @@ const workerConfig: WorkerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'derp.zt.hlmg.tech',
       // `name` is used at status page and callback message
-      name: 'Derp at zouter@hk',
+      name: 'derp.zt.hlmg.tech',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
@@ -59,7 +59,7 @@ const workerConfig: WorkerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'cloud.hlmg.tech',
       // `name` is used at status page and callback message
-      name: 'Cloudreve at uqidc@hk',
+      name: 'cloud.hlmg.tech',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
